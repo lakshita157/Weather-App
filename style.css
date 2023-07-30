@@ -7,7 +7,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     background: #222;   
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
-
+    font-size: 120%;
 }
 
 .card{
@@ -34,20 +34,31 @@ button{
     height: 46px;
     width: 46px;
     outline: none;
+    background-color: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background:#7c7c7c6b ;
+
 }
 
 input.search-bar{
     border: none;
     outline: none;
-    padding: 0.8em 1em;
+    padding: 0.4em 1em;
     border-radius: 24px;
     background-color: #7c7c7c2b;
     color: white;
     font-family: inherit;
-    font-size: 120%;
-
+    font-size: 110%;
+    width: calc(100% - 100px);
 }
 
 .temp{
     font-size:larger ;
+    margin: 0;
 }
+   
